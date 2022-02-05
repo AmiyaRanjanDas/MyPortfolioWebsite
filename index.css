@@ -1,0 +1,86 @@
+*, *::after,*::before{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+#home
+{position: }
+#nav
+{
+    display: flex;
+}
+#nav img
+{
+    height: 130px;
+    padding: 10px;
+}
+#nav ul
+{
+    display: flex;
+}
+#nav ul li
+{
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    margin-left:30px ;
+}
+#nav ul li a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    color: blue;
+}
+#main h1
+{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1500;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    border-right: 4px solid blue;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type 4s steps(43) infinite alternate-reverse;
+}
+@keyframes type
+{
+    0%{width: 0ch;}
+    /* 50%{width: 32ch;} */
+    100%{width:43ch;}
+}
+#page
+{
+    display: flex;
+}
+#page div{
+    margin: auto;
+}
+#page div h2
+{
+    font-size: 35px;
+    padding:15px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+span
+{
+    font-size: 50px;
+    color: blue;
+}
+#page div h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 4px;
+    color: white;
+}
+#page div img{
+    height: 400px;
+    margin: auto;
+    /* border: 3px solid rgb(255, 238, 0); */
+}
